@@ -66,8 +66,13 @@ namespace Machina.FFXIV.Headers.Opcodes
 
             }
         }
+        public bool RegionLocked { get; set; }
+
         public void SetRegion(GameRegion region)
         {
+            if (RegionLocked)
+                return;
+
             if (!_opcodes.ContainsKey(region))
                 region = GameRegion.Global;
 
