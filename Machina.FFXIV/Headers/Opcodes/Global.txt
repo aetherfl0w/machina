@@ -23,8 +23,4 @@ ActorSetPos|154
 ActorGauge|322
 PresetWaymark|235
 Waymark|2d7
-<<<<<<< HEAD
 SystemLogMessage|1e2
-=======
-SystemLogMessage|1e2
->>>>>>> marzent/dalamud

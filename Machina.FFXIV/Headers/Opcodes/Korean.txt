@@ -1,4 +1,4 @@
-﻿StatusEffectList|117
+StatusEffectList|117
 StatusEffectList2|3dc
 StatusEffectList3|336
 BossStatusEffectList|232
