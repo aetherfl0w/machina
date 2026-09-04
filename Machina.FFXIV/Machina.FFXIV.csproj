@@ -67,13 +67,3 @@
         </None>
     </ItemGroup>
 </Project>
-  <ItemGroup>
-      <Content Include="Deucalion\Distrib\deucalion-1.5.0.dll">
-          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-          <TargetPath>deucalion-1.5.0.dll</TargetPath>
-          <Pack>True</Pack>
-          <PackagePath>lib\$(TargetFrameworks)</PackagePath>
-          <PackageCopyToOutput>true</PackageCopyToOutput>
-      </Content>
-  </ItemGroup>
-</Project>
