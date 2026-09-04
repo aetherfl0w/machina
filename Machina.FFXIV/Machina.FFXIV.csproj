@@ -6,9 +6,9 @@
     </PropertyGroup>
     
     <PropertyGroup>
-        <Version>2.4.6.8</Version>
-        <AssemblyVersion>2.4.6.8</AssemblyVersion>
-        <FileVersion>2.4.6.8</FileVersion>
+        <Version>2.4.7.7</Version>
+        <AssemblyVersion>2.4.7.7</AssemblyVersion>
+        <FileVersion>2.4.7.7</FileVersion>
         <EnableNETAnalyzers>true</EnableNETAnalyzers>
         <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -66,4 +66,14 @@
             <PackagePath></PackagePath>
         </None>
     </ItemGroup>
+</Project>
+  <ItemGroup>
+      <Content Include="Deucalion\Distrib\deucalion-1.5.0.dll">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+          <TargetPath>deucalion-1.5.0.dll</TargetPath>
+          <Pack>True</Pack>
+          <PackagePath>lib\$(TargetFrameworks)</PackagePath>
+          <PackageCopyToOutput>true</PackageCopyToOutput>
+      </Content>
+  </ItemGroup>
 </Project>
